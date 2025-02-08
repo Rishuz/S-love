@@ -205,7 +205,7 @@ TAGMES = [ " **𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 𝐊𝐚𝐡𝐚 𝐇𝐨🤗🥱**
            ]
 
 @app.on_message(filters.command(["stagall", "sspam", "stagmember", "utag", "sstag", "hsftag", "sbstag", "seftag", "stag", "setag", "sutag", "satag"], prefixes=["/", "@", "#"]))
-async def mentionall(client, message):
+async def mentiionall(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
         return await message.reply("𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐆𝐫𝐨𝐮𝐩𝐬.")
