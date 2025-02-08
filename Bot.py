@@ -1,6 +1,6 @@
 import os
 import logging
-import random  # Randomly select emoji or tag message
+import random  # Randomly select emogi ka lea 
 from pyrogram import Client, filters
 import asyncio
 from telethon import TelegramClient, events, Button
